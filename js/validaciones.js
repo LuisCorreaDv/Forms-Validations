@@ -41,6 +41,22 @@ const mensajesError = {
         valueMissing: 'Este campo no puede estar vacío',
         customError: 'Debes tener al menos 18 años de edad'
     },
+    numero: {
+        valueMissing: 'El campo numero no puede estar vacío',
+        patternMismatch: 'El formato requerido es xxxxxxxxxx 10 numeros'
+    },
+    direccion: {
+        valueMissing: 'El campo direccion no puede estar vacío',
+        patternMismatch: 'La dirección debe contener entre 10 a 40 caracteres.',
+    },
+    ciudad: {
+        valueMissing: 'El campo ciudad no puede estar vacío',
+        patternMismatch: 'La ciudad debe contener entre 10 a 40 caracteres.',
+    },
+    estado: {
+        valueMissing: 'El campo estado no puede estar vacío',
+        patternMismatch: 'El estado debe contener entre 10 a 40 caracteres.',
+    },
 }
 
 //Asignando un objeto a los data tipes para seleccionar el tipo de input que recibe
